@@ -20,7 +20,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <img
-              src="/images/family/logo.jpg"
+              src="images/family/logo.jpg"
               alt="Семейни пчелари работят с кошери"
               className="rounded-2xl shadow-xl w-full h-auto"
             />
@@ -28,10 +28,9 @@ const About = () => {
           <div className="space-y-6">
             <h2 className="text-3xl font-bold text-gray-900">Наследството на Христови</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Всичко започна през 1952 година, когато нашият дядо, започна да 
-              отглежда пчели като хоби след завръщането си от Втората световна война. Това, което 
-              започна с едва три кошера в задния му двор, се превърна в процъфтяваща семейна дейност 
-              с над 200 кошера в цялата Пчелини Христови.
+              Всичко започна, когато нашият дядо, започна да 
+              отглежда пчели като хоби. Това, което започна с едва три кошера в задния му двор, 
+              се превърна в процъфтяваща семейна дейност с над 200 кошера в цялата Пчелини Христови.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Днес нашата ферма се управлява от третото поколение Йорданови, продължавайки традицията 
@@ -49,36 +48,36 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="space-y-6">
               <img
-                src="/images/farm/farm1.jpg"
+                src="images/farm/farm1.jpg"
                 alt="Пчелар инспектира рамки от кошера"
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
               <img
-                src="/images/farm/farm2.jpg"
+                src="images/farm/farm2.jpg"
                 alt="Красива поляна с диви цветя"
                 className="rounded-xl shadow-lg w-full h-80 object-cover"
               />
             </div>
             <div className="space-y-6">
               <img
-                src="/images/farm/farm3.jpg"
+                src="images/farm/farm3.jpg"
                 alt="Прясен мед се извлича"
                 className="rounded-xl shadow-lg w-full h-80 object-cover"
               />
               <img
-                src="/images/farm/farm4.jpg"
+                src="images/farm/farm4.jpg"
                 alt="Трудолюбиви пчели на пчелна пита"
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
             </div>
             <div className="space-y-6">
               <img
-                src="/images/farm/farm5.jpg"
+                src="images/farm/farm5.jpg"
                 alt="Множество кошери в полето"
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
               <img
-                src="/images/farm/farm6.jpg"
+                src="images/farm/farm6.jpg"
                 alt="Пчелар в защитно облекло"
                 className="rounded-xl shadow-lg w-full h-80 object-cover"
               />

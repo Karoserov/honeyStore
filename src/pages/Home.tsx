@@ -36,7 +36,7 @@ const Home = () => {
             </div>
             <div className="relative">
               <img
-                src="/images/hero-honey.jpg"
+                src="images/hero-honey.jpg"
                 alt="Пресен мед капе от дървена лъжичка"
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />
@@ -97,7 +97,7 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/images/farm/beehives-landscape.jpg"
+                src="images/farm/beehives-landscape.jpg"
                 alt="Кошери в красива поляна"
                 className="rounded-2xl shadow-xl w-full h-auto"
               />
