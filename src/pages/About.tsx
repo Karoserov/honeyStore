@@ -20,18 +20,18 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <img
-              src="https://images.pexels.com/photos/5946092/pexels-photo-5946092.jpeg?auto=compress&cs=tinysrgb&w=800"
+              src="/images/family/logo.jpg"
               alt="Семейни пчелари работят с кошери"
               className="rounded-2xl shadow-xl w-full h-auto"
             />
           </div>
           <div className="space-y-6">
-            <h2 className="text-3xl font-bold text-gray-900">Наследството на Йорданови</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Наследството на Христови</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Всичко започна през 1952 година, когато нашият дядо, Стоян Йорданов, започна да 
+              Всичко започна през 1952 година, когато нашият дядо, започна да 
               отглежда пчели като хоби след завръщането си от Втората световна война. Това, което 
               започна с едва три кошера в задния му двор, се превърна в процъфтяваща семейна дейност 
-              с над 200 кошера в цялата Златна долина.
+              с над 200 кошера в цялата Пчелини Христови.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Днес нашата ферма се управлява от третото поколение Йорданови, продължавайки традицията 
@@ -49,36 +49,36 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="space-y-6">
               <img
-                src="https://images.pexels.com/photos/6994305/pexels-photo-6994305.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="/images/farm/farm1.jpg"
                 alt="Пчелар инспектира рамки от кошера"
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
               <img
-                src="https://images.pexels.com/photos/9046237/pexels-photo-9046237.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="/images/farm/farm2.jpg"
                 alt="Красива поляна с диви цветя"
                 className="rounded-xl shadow-lg w-full h-80 object-cover"
               />
             </div>
             <div className="space-y-6">
               <img
-                src="https://images.pexels.com/photos/6994318/pexels-photo-6994318.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="/images/farm/farm3.jpg"
                 alt="Прясен мед се извлича"
                 className="rounded-xl shadow-lg w-full h-80 object-cover"
               />
               <img
-                src="https://images.pexels.com/photos/372176/pexels-photo-372176.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="/images/farm/farm4.jpg"
                 alt="Трудолюбиви пчели на пчелна пита"
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
             </div>
             <div className="space-y-6">
               <img
-                src="https://images.pexels.com/photos/6994354/pexels-photo-6994354.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="/images/farm/farm5.jpg"
                 alt="Множество кошери в полето"
                 className="rounded-xl shadow-lg w-full h-64 object-cover"
               />
               <img
-                src="https://images.pexels.com/photos/6994310/pexels-photo-6994310.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="/images/farm/farm6.jpg"
                 alt="Пчелар в защитно облекло"
                 className="rounded-xl shadow-lg w-full h-80 object-cover"
               />
@@ -115,8 +115,8 @@ const About = () => {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Адрес</h3>
               <p className="text-gray-600">
-                ул. "Златна долина" 47<br />
-                с. Ливадите, обл. Пловдив 4180
+                ул. „Иван Н. Момчилов“ 65-59<br />
+                гр. Елена, обл. Велико Търново 
               </p>
             </div>
             
@@ -126,8 +126,7 @@ const About = () => {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Телефон</h3>
               <p className="text-gray-600">
-                032 555 МЕД<br />
-                032 555 633
+                088 282 7798
               </p>
             </div>
             
@@ -137,8 +136,7 @@ const About = () => {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Имейл</h3>
               <p className="text-gray-600">
-                info@zlatnadolina.bg<br />
-                obikoli@zlatnadolina.bg
+                hristovihoney@abv.bg
               </p>
             </div>
             
@@ -148,17 +146,17 @@ const About = () => {
               </div>
               <h3 className="font-semibold text-gray-900 mb-2">Работно време</h3>
               <p className="text-gray-600">
-                Пон-Съб: 9:00-18:00<br />
-                Неделя: 11:00-16:00
+                Всеки ден от 9:00 до 18:00 ч.<br />
+                Събота и неделя: по уговорка
               </p>
             </div>
           </div>
 
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <button className="bg-amber-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-amber-700 transition-colors shadow-lg">
               Запишете обиколка на фермата
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

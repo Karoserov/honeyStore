@@ -21,7 +21,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 text-amber-600 hover:text-amber-700 transition-colors">
             <Hexagon className="h-8 w-8 fill-current" />
-            <span className="text-xl font-bold">Златна долина мед</span>
+            <span className="text-xl font-bold">Пчелини Христови</span>
           </Link>
 
           {/* Desktop Navigation */}

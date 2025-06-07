@@ -23,7 +23,7 @@ const Home = () => {
                   to="/products"
                   className="inline-flex items-center bg-amber-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-amber-700 transition-colors shadow-lg hover:shadow-xl"
                 >
-                  Купете нашия мед
+                  Купете си от нашия мед
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
                 <Link
@@ -36,8 +36,8 @@ const Home = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/12572580/pexels-photo-12572580.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="Прясен мед капе от дървена лъжичка"
+                src="/images/hero-honey.jpg"
+                alt="Пресен мед капе от дървена лъжичка"
                 className="rounded-2xl shadow-2xl w-full h-auto"
               />
             </div>
@@ -97,7 +97,7 @@ const Home = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.pexels.com/photos/6994357/pexels-photo-6994357.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/images/farm/beehives-landscape.jpg"
                 alt="Кошери в красива поляна"
                 className="rounded-2xl shadow-xl w-full h-auto"
               />
@@ -107,7 +107,7 @@ const Home = () => {
                 Устойчиво пчеларство
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Нашата ферма е дом на над 200 кошера, разположени в девствената Златна долина. 
+                Нашата ферма е дом на над 200 кошера, разположени в нашата пчелна ферма. 
                 Практикуваме устойчиви пчеларски методи, които защитават нашите пчели и опазват 
                 естествената екосистема, от която те зависят.
               </p>
